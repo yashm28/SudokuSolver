@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.akash.sudokusolver.SudokuSolver"
+    tools:showIn="@layout/activity_sudoku_solver">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="30dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginRight="15dp">
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/sudoku_text"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:visibility="gone"/>-->
+    <TextView
+        android:id="@+id/sudoku_text"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <TextView
+        android:layout_marginTop="25dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Created BY:"
+    android:fontFamily="@string/large_text"
+    android:textSize="40sp"
+    android:textColor="@color/colorPrimary"
+    android:paddingBottom="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Akash Patel"
+        android:fontFamily="@string/large_text"
+        android:textSize="30sp"
+        android:paddingBottom="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="akash3379@gmail.com"
+        android:fontFamily="@string/large_text"
+        android:textSize="15sp"
+        android:paddingBottom="10dp"/>
+    <ImageView
+
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/akash1"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Yash Modi"
+        android:fontFamily="@string/large_text"
+        android:textSize="30sp"
+        android:paddingBottom="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="modiyash3393@gmail.com"
+        android:fontFamily="@string/large_text"
+        android:textSize="15sp"
+        android:paddingBottom="10dp"/>
+    <ImageView
+
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@android:color/darker_gray"
+        android:layout_gravity="center">
+
+    </ImageView>
+
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="25dp"
+    android:background="@drawable/grid_background" android:layout_marginLeft="15dp"
+    android:layout_marginTop="5dp" android:layout_marginStart="15dp"
+    android:id="@+id/item" android:textColor="@android:color/white"/>
